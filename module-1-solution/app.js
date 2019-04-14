@@ -6,7 +6,7 @@ angular.module('LunchCheck', [])
 
 LunchCheckController.$inject = ['$scope', '$filter'];
 function LunchCheckController($scope, $filter) {
-  $scope.lunch == ""
+  $scope.lunch = ""
 
   $scope.checkTooMuch = function () {
     console.log($scope.lunch);
